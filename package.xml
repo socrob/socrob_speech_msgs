@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>socrob_speech_msgs</name>
+  <version>0.0.0</version>
+  <description>ROS messages used by the SocRob@Home speech pipeline</description>
+  
+  <maintainer email="afonso.certo@tecnico.ulisboa.pt"> Afonso Certo</maintainer>
+  
+  <license>MIT</license>
+  
+  <author email="afonso.certo@tecnico.ulisboa.pt">Afonso Certo</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msg</build_depend>
+
+  <build_export_depend>std_msg</build_export_depend>
+
+  <exec_depend>std_msg</exec_depend>
+</package>
